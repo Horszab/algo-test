@@ -9,13 +9,9 @@ public class OddNumbers {
         int sumOfOddNumbers = 0;
 
         for (Integer number : numbers) {
-
             if (number % 2 != 0) {
-
                 sumOfOddNumbers += number;
-
             }
-
         }
 
         return sumOfOddNumbers;
